@@ -18,22 +18,18 @@
 #include <DHT_U.h>
 #include <Arduino.h>
 #include "sensor/sensor.hpp"
+#include "secrets.h"
 
 
 // DHT stuff
 #define DHTPIN D3
 #define DHTTYPE DHT22
 
-#define STATION_ID 5
-#define STATION_SECRET "\"2e870053cf539c3f8b2c3b8345acac30b93d8083e510303ddf56bec3ada9c13e30400e4658158955cc6c71609e2968fa3a7da28edbde8732b143222a29c07104\""
-
 
 namespace Web
 {
     // DHT dht(DHTPIN, DHTTYPE);
     extern const char* serverName;
-    extern const char* ssid;
-    extern const char* pwd;
 
     /**
      * @brief initialize the internet connection
