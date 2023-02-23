@@ -14,7 +14,7 @@ void Web::setup()
     OLED::u8g2.drawStr(45, 44, "WiFi");
     OLED::u8g2.nextPage();
 
-    WiFi.begin(ssid, pwd);
+    WiFi.begin(SSID, PWD);
     int i = 0;
     while (WiFi.status() != WL_CONNECTED)
     {
