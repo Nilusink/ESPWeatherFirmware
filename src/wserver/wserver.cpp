@@ -2,7 +2,7 @@
 #include "OLED/oled.hpp"
 #include <string>
 
-const char *Web::serverName = "http://home.nilus.ink/weather/";
+const char *Web::serverName = "http://home.nilus.ink:43210/weather/";
 
 void Web::setup()
 {
