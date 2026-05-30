@@ -1,6 +1,5 @@
 # ESP Weatherstation Firmware
 
-
 <div style="width: 100%; display: flex; justify-content: center;">
     <img src="./img/Display.jpg" height=300>
 </div>
